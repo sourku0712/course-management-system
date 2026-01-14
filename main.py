@@ -117,7 +117,7 @@ while True:
     print("5. Eligibility check to apply for a Course")
     print("6. Stop")
 
-    ch = int(input("Enter choice: "))
+    ch = int(input("\nEnter choice: "))
 
     if ch == 1:
         addCourse(input("Enter Course Id: "), input("Enter Course Name: "))
@@ -146,3 +146,5 @@ while True:
 
     else:
         print("Invalid choice")
+
+    z= input("\nPress Enter to Continue...")
